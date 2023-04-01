@@ -32,9 +32,9 @@ const Dashboard: React.FC = () => {
       <IonPage>
         <IonContent className="ion-padding">
           <h1 style={{textAlign: "center", paddingTop: "40px"}}>{`${month + 1}/${year}`}</h1>
-          <p>
+          <div style={{maxHeight: "calc(100vh - 150px)", margin: "auto"}}>
             <Pie data={doughnutChartData} options={{ maintainAspectRatio: true}}  />
-          </p>
+          </div>
         </IonContent>
       </IonPage>
     </>
