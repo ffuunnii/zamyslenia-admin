@@ -1,0 +1,7 @@
+{
+  "name": "zamyslenia-admin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
