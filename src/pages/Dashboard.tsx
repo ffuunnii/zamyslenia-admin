@@ -1,9 +1,6 @@
 import { 
-  IonContent, 
-  IonHeader, 
-  IonPage, 
-  IonTitle, 
-  IonToolbar
+  IonContent,  
+  IonPage
    } from '@ionic/react';
 import './Dashboard.css';
 import { Pie } from 'react-chartjs-2';
